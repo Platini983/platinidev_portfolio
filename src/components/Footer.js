@@ -1,11 +1,8 @@
 import React from 'react'
 import { Container, Row, Col } from "react-bootstrap";
-import {
-    AiFillGithub,
-    // AiOutlineTwitter,
-    //AiFillInstagram,
-  } from "react-icons/ai";
-  import { FaLinkedinIn } from "react-icons/fa";
+import { AiFillGithub } from "react-icons/ai";
+import { FaDribbble, FaFigma, FaLinkedinIn } from "react-icons/fa";
+import { FaBehance } from "react-icons/fa";
 
 const Footer = () => {
   let date = new Date();
@@ -33,6 +30,27 @@ const Footer = () => {
                 href="https://www.linkedin.com/in/michael-amponsah-27237a108"
                 style={{ color: "1A6AA2" }} >
                 <FaLinkedinIn />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://www.behance.net/amponsahmichael"
+                style={{ color: "1A6AA2" }} >
+                <FaBehance />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://dribbble.com/Platini983"
+                style={{ color: "1A6AA2" }} >
+                <FaDribbble />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://figma.com/@Platini_983"
+                style={{ color: "1A6AA2" }} >
+                <FaFigma />
               </a>
             </li>
           </ul>

@@ -2,7 +2,7 @@
 import RestCountries from "./assets/portfolioImages/restcountries.jpg";
 import SpaceTourism from "./assets/portfolioImages/spacetourism.jpg";
 import Quiz from "./assets/portfolioImages/quiz.png";
-import Page from "./assets/portfolioImages/intropage.jpg";
+import Page from "./assets/portfolioImages/Plat_management_site.png";
 import AWS from "./assets/portfolioImages/adv.png";
 import Todo from "./assets/portfolioImages/todolist.png"
 
@@ -49,10 +49,10 @@ const ProjectsData = [
   {
     id: "dropdown-nav",
     img: Page,
-    name: "Homepage with dropdown navigation / Figma to React",
+    name: "Homepage with navigation / Figma to React",
     stack: ["< React.js />   ", "< CSS3 />"],
-    live: "",
-    source: "",
+    live: "https://www.behance.net/amponsahmichael",
+    source: "https://www.behance.net/amponsahmichael",
     description:  
         "This challenge from frontendmentor tested my skills to create dropdown navigation menus, a common pattern on larger sites. It also has some nice basic layout challenge",
   },  

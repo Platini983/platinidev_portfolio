@@ -24,7 +24,7 @@ const Home = () => {
                 />
               </span>
             </p>
-            <p className='pt-5'>Frontend Development / ReactJS / Web Designing</p>
+            <p className='pt-5'>Frontend Development / ReactJS / UI/UX Designing</p>
             <NavLink to='/projects'><button className='btn btn-primary custom-btn ps-5 pe-5 fw-bold mt-2'>My Work</button></NavLink>
           </div>
 
