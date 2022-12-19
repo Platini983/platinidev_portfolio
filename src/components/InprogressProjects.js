@@ -6,7 +6,7 @@ const InprogressProjects = () => {
   return (
     <div className="container-fluid">
       <div className="row pt-5 mt-4">
-        <h2 className='custom-font pb-3 text-center'>In Progress: </h2>
+        <h2 className='custom-font pb-3 text-center fw-bold'>In Progress: </h2>
         {data.InprogressProjectsData.map((project) => {
           return(
             <div className="col-12 d-flex justify-content-center" key={project.id}>

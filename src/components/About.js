@@ -1,6 +1,5 @@
 import React from 'react'
 import { FaBootstrap } from 'react-icons/fa'
-import { SiFlutter } from 'react-icons/si'
 import { SiFigma } from 'react-icons/si'
 
 import resume from '../assets/Amponsah_Michael_SCV.pdf'
@@ -9,9 +8,10 @@ const About = () => {
   return (
     <div className='container-fluid bg-light pt-5 d-flex flex-column align-items-center min-vh-100'>
       <p className="text-center lead m-4">
-        I'm a react web developer with 1+ years of experience in web development. I love creating responsive websites using ReactJS, JavaScript, HTML5, CSS3, Bootstrap, and Sass/Scss. 
-        I enjoy creating website designs in Figma and converting UI designs into real websites. I've done multiple small projects to learn basics. 
-        {/* Apart form this, i'm learning flutter for my final year project (FYP) */}
+        I'm a react web developer and UI/UX Designer with 1+ years of experience in web development. I love creating responsive websites using 
+        ReactJS, JavaScript, HTML5, CSS3, Bootstrap, and using figma. 
+        I enjoy creating website designs in Figma and converting UI designs into real websites. 
+        I've done multiple small projects to learn basics. 
       </p>
       <a href={resume} download className="btn btn-primary mt-5 custom-btn fw-bold">Download My Resume</a>
       <h3 className='pt-5 pb-2 custom-color'>Languages and tools I use:</h3>
@@ -23,7 +23,6 @@ const About = () => {
         <img className='m-2' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="react" width="35" height="35"/>
         <img className='m-2' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="vscode" width="35" height="35"/>
         <img className='m-2' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git" width="35" height="35"/>
-        <img className='m-2' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="sass" width="35" height="35"/>
         <FaBootstrap className='m-2' style={{width:"35", height:"35", color: '#7a14f5'}}/>
         <img className='ms-2' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="figma" width="30" height="35"/>
       </p>

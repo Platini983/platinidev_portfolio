@@ -1,6 +1,3 @@
- 
-import RestCountries from "./assets/portfolioImages/restcountries.jpg";
-import SpaceTourism from "./assets/portfolioImages/spacetourism.jpg";
 import Quiz from "./assets/portfolioImages/quiz.png";
 import Page from "./assets/portfolioImages/Plat_management_site.png";
 import AWS from "./assets/portfolioImages/adv.png";
@@ -8,9 +5,12 @@ import Todo from "./assets/portfolioImages/todolist.png"
 
 // in progress projects
 
-import Servista from './assets/portfolioImages/servista.PNG'
-import landingPage from './assets/portfolioImages/url.jpg'
- 
+import Checkout_card from "./assets/portfolioImages/plat_checkout_card.png";
+import landingPage from './assets/portfolioImages/plat_weather.png'
+import Portfolio_landingPage from './assets/portfolioImages/portfolio.png'
+
+
+// completed projects
 const ProjectsData = [
    
   {
@@ -59,30 +59,44 @@ const ProjectsData = [
    
 ];
 
+
+// in progress projects
 const InprogressProjectsData = [
    
   {
-    id: "servista",
-    img: Servista,
-    name: "Servista",
-    stack: ["< Flutter />", "< NodeJS />", "< Blockchain />"],
+    id: "checkout",
+    img: Checkout_card,
+    name: "UI Design using Figma",
+    stack: ["< Figma />"],
     live: "",
-    source: "https://github.com/rimshub/servista",
+    source: "https://www.behance.net/amponsahmichael",
     description:  
-        "A cross-platform app that connects local service providers with customers. The goal is to maximize the income of local professionals while ensuring the security and comfort of customers",
+        "A Check_out user Interface design made with Figma ",
   },
 
   {
-    id: "url-short",
+    id: "weather",
     img: landingPage,
-    name: "URL shortening API landing page",
-    stack: ["< JavaScript />", "< NodeJS />"],
+    name: "UI Design using Figma",
+    stack: ["< Figma />"],
     live: "",
-    source: "https://github.com/rimshub/URL-shortening-API-landing-page",
+    source: "https://www.behance.net/amponsahmichael",
     description:  
-        "Integrate with the shrtcode URL shortening API and play with browser storage in this landing page challenge",
+        "A Weather user Interface design made with Figma ",
+  },
+
+  {
+    id: "portfolio",
+    img: Portfolio_landingPage,
+    name: "Porfolio Page / Figma to Reactjs",
+    stack: ["< React JS />"],
+    live: "https://platdev-portfolio.vercel.app/",
+    source: "https://www.behance.net/amponsahmichael",
+    description:  
+        "A UI Portfolio landing page design done with Figma and developed using react js and other react component",
   },
 
 ];
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {ProjectsData, InprogressProjectsData}
