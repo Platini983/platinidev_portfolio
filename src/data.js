@@ -1,7 +1,8 @@
 import Quiz from "./assets/portfolioImages/quiz.png";
-import Page from "./assets/portfolioImages/Plat_management_site.png";
+import Page from "./assets/portfolioImages/plat_landing_management.png";
 import AWS from "./assets/portfolioImages/adv.png";
 import Todo from "./assets/portfolioImages/todolist.png"
+import Platino from "./assets/portfolioImages/plat_platino.jpg"
 
 // in progress projects
 
@@ -55,7 +56,18 @@ const ProjectsData = [
     source: "https://www.behance.net/amponsahmichael",
     description:  
         "This challenge from frontendmentor tested my skills to create dropdown navigation menus, a common pattern on larger sites. It also has some nice basic layout challenge",
-  },  
+  },
+  
+  {
+    id: "platino",
+    img: Platino,
+    name: "A Plant App design with Figma",
+    stack: ["< Figma />"],
+    live: "https://www.behance.net/amponsahmichael",
+    source: "https://figma.com/@Platini_983/plat_platino",
+    description:  
+        "A plant App interface design in various device; Web view, Android and IOS device",
+  },
    
 ];
 
@@ -68,8 +80,8 @@ const InprogressProjectsData = [
     img: Checkout_card,
     name: "UI Design using Figma",
     stack: ["< Figma />"],
-    live: "",
-    source: "https://www.behance.net/amponsahmichael",
+    live: "https://www.behance.net/amponsahmichael",
+    source: "https://figma.com/@Platini_983/plat_checkout_card",
     description:  
         "A Check_out user Interface design made with Figma ",
   },
@@ -79,8 +91,8 @@ const InprogressProjectsData = [
     img: landingPage,
     name: "UI Design using Figma",
     stack: ["< Figma />"],
-    live: "",
-    source: "https://www.behance.net/amponsahmichael",
+    live: "https://www.behance.net/amponsahmichael",
+    source: "https://figma.com/@Platini_983/plat_weather",
     description:  
         "A Weather user Interface design made with Figma ",
   },
