@@ -2,13 +2,14 @@ import Quiz from "./assets/portfolioImages/quiz.png";
 import Page from "./assets/portfolioImages/plat_landing_management.png";
 import AWS from "./assets/portfolioImages/adv.png";
 import Todo from "./assets/portfolioImages/todolist.png"
-import Platino from "./assets/portfolioImages/plat_platino.jpg"
+import Portfolio_landingPage from './assets/portfolioImages/portfolio.png'
 
 // in progress projects
 
 import Checkout_card from "./assets/portfolioImages/plat_checkout_card.png";
 import landingPage from './assets/portfolioImages/plat_weather.png'
-import Portfolio_landingPage from './assets/portfolioImages/portfolio.png'
+import Platino from "./assets/portfolioImages/plat_platino.png"
+import burger from "./assets/portfolioImages/plat_burger.png"
 
 
 // completed projects
@@ -57,7 +58,24 @@ const ProjectsData = [
     description:  
         "This challenge from frontendmentor tested my skills to create dropdown navigation menus, a common pattern on larger sites. It also has some nice basic layout challenge",
   },
-  
+
+  {
+    id: "portfolio",
+    img: Portfolio_landingPage,
+    name: "Porfolio Page / Figma to Reactjs",
+    stack: ["< React JS />"],
+    live: "https://platdev-portfolio.vercel.app/",
+    source: "https://www.behance.net/amponsahmichael",
+    description:  
+        "A UI Portfolio landing page design done with Figma and developed using react js and other react component",
+  },
+   
+];
+
+
+// in progress projects
+const InprogressProjectsData = [
+   
   {
     id: "platino",
     img: Platino,
@@ -68,13 +86,18 @@ const ProjectsData = [
     description:  
         "A plant App interface design in various device; Web view, Android and IOS device",
   },
-   
-];
 
+  {
+    id: "burger",
+    img: burger,
+    name: "A Super Delicious Burger design with Figma",
+    stack: ["< Figma />"],
+    live: "https://www.behance.net/amponsahmichael",
+    source: "https://figma.com/@Platini_983/plat_burger",
+    description:  
+        "A Burger App interface design in various device; Web view and Android device",
+  },
 
-// in progress projects
-const InprogressProjectsData = [
-   
   {
     id: "checkout",
     img: Checkout_card,
@@ -95,17 +118,6 @@ const InprogressProjectsData = [
     source: "https://figma.com/@Platini_983/plat_weather",
     description:  
         "A Weather user Interface design made with Figma ",
-  },
-
-  {
-    id: "portfolio",
-    img: Portfolio_landingPage,
-    name: "Porfolio Page / Figma to Reactjs",
-    stack: ["< React JS />"],
-    live: "https://platdev-portfolio.vercel.app/",
-    source: "https://www.behance.net/amponsahmichael",
-    description:  
-        "A UI Portfolio landing page design done with Figma and developed using react js and other react component",
   },
 
 ];
